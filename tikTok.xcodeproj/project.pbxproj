@@ -17,7 +17,8 @@
 		8237479C2884E7C10058DB36 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 823747962884E7C10058DB36 /* video4.mp4 */; };
 		8237479D2884E7C10058DB36 /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 823747972884E7C10058DB36 /* video6.mp4 */; };
 		8237479E2884E7C10058DB36 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 823747982884E7C10058DB36 /* video5.mp4 */; };
-		823747A12884E91B0058DB36 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823747A02884E91B0058DB36 /* Home.swift */; };
+		823747A42884EAEA0058DB36 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823747A32884EAEA0058DB36 /* Home.swift */; };
+		823747A72884EB280058DB36 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823747A62884EB280058DB36 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,8 @@
 		823747962884E7C10058DB36 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
 		823747972884E7C10058DB36 /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
 		823747982884E7C10058DB36 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
-		823747A02884E91B0058DB36 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		823747A32884EAEA0058DB36 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		823747A62884EB280058DB36 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +67,12 @@
 		823747842884E74B0058DB36 /* tikTok */ = {
 			isa = PBXGroup;
 			children = (
+				823747A52884EB1B0058DB36 /* Model */,
 				8237479F2884E7CA0058DB36 /* Videos */,
 				823747852884E74B0058DB36 /* tikTokApp.swift */,
 				823747A22884EA9B0058DB36 /* View */,
 				823747892884E74B0058DB36 /* Assets.xcassets */,
 				8237478B2884E74B0058DB36 /* Preview Content */,
-				823747A02884E91B0058DB36 /* Home.swift */,
 			);
 			path = tikTok;
 			sourceTree = "<group>";
@@ -100,8 +102,17 @@
 			isa = PBXGroup;
 			children = (
 				823747872884E74B0058DB36 /* ContentView.swift */,
+				823747A32884EAEA0058DB36 /* Home.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		823747A52884EB1B0058DB36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				823747A62884EB280058DB36 /* Video.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				823747882884E74B0058DB36 /* ContentView.swift in Sources */,
-				823747A12884E91B0058DB36 /* Home.swift in Sources */,
+				823747A72884EB280058DB36 /* Video.swift in Sources */,
+				823747A42884EAEA0058DB36 /* Home.swift in Sources */,
 				823747862884E74B0058DB36 /* tikTokApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
