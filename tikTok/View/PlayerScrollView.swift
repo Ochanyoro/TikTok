@@ -60,11 +60,13 @@ struct PlayerScrollView: UIViewRepresentable {
             if currentIndex != index {
                 index = currentIndex
                 
+                /*
                 for i in 0..<view.data.count {
                     view.data[i].player.seek(to: .zero)
                     view.data[i].player.play()
                 }
-                
+                 */
+                //view.data[i].player.seek(to: .zero)
                 view.data[index].player.play()
                 
                 view.data[index].player.actionAtItemEnd = .none
